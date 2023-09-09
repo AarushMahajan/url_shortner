@@ -1,0 +1,8 @@
+1. Run zookeeper as normal go to:- kafka folder then run "bin/zookeeper-server-start.sh config/zookeeper.properties" 
+2. To run zookeeper CLI run zookeeper and then in new terminal go to: kafka folder then run "bin/zookeeper-shell.sh localhost:2181"
+3. To see all node run "ls /" in zookeeper CLI.
+4. Other Commands as below
+    .ls / to list the immediate children of the root znode.
+    .ls /some_path to list the children of a specific znode.
+    .get /some_znode to retrieve the data stored in a znode.
+    .stat /some_znode to get the metadata (version, data length, etc.) of a znode.
